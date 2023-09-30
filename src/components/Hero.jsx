@@ -7,7 +7,7 @@ import React from 'react'
 const Hero = () => {
   return (
     <section className='bg-sky-100 py-24'>
-        <div className="align-elements grid md:grid-cols-2 items-center gap-8">
+        <div className="align-elements grid md:grid-cols-2 items-center gap-16">
             <article>
                 <h1 className='text-7xl font-bold tracking-bolder'>I'm Srikanth</h1>
                 <h3 className='mt-4 text-3xl capitalize text-slate-700 tracking-wide'>Front-End Developer</h3>
@@ -25,7 +25,14 @@ const Hero = () => {
                 </div>
             </article>
             <article className='hidden md:block'>
-                <img src={selfImg} className='h-65 lg:h-80' />
+                {/* <img src={selfImg} className='relative h-45 w-45 lg:h-60 lg:w-60 rounded-full object-cover' /> */}
+                {/* <div class="w-45 h-45 relative lg:h-60 lg:w-60 rounded-full mx-auto mb-6">
+                    <img class="w-full h-full object-cover rounded-full block relative" src={selfImg} alt="Srikanth Img" />
+                    <div class="absolute w-full h-full bg-orange-500 rounded-full top-0.25 right-0.5"></div>
+                </div> */}
+                <div className='img-con'>
+                    <img className='img1'src={selfImg} alt="Srikanth Img" />
+                </div>
             </article>
         </div>
     </section>

@@ -1,5 +1,6 @@
 import { nanoid } from 'nanoid';
-import { FaHtml5, FaJs, FaReact } from 'react-icons/fa';
+import { FaHtml5, FaJs, FaReact, FaCss3Alt, FaSass, FaAngular, FaVuejs, FaGithub, FaBootstrap, FaFontAwesome } from 'react-icons/fa';
+import { BiLogoTypescript, BiLogoGit, BiLogoTailwindCss, BiLogoRedux } from 'react-icons/bi';
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -55,3 +56,79 @@ export const projects = [
     text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
   },
 ];
+
+export const languages = [
+  {
+    id: nanoid(),
+    title: 'JavaScript',
+    icon: <FaJs className='h-16 w-16 text-sky-600' />,
+  },
+  {
+    id: nanoid(),
+    title: 'TypeScript',
+    icon: <BiLogoTypescript className='h-16 w-16 text-sky-600' />,
+  },
+  {
+    id: nanoid(),
+    title: 'CSS',
+    icon: <FaCss3Alt className='h-16 w-16 text-sky-600' />,
+  },
+  {
+    id: nanoid(),
+    title: 'HTML',
+    icon: <FaHtml5 className='h-16 w-16 text-sky-600' />,
+  },
+  {
+    id: nanoid(),
+    title: 'Sass',
+    icon: <FaSass className='h-16 w-16 text-sky-600' />,
+  },
+  {
+    id: nanoid(),
+    title: 'Git',
+    icon: <BiLogoGit className='h-16 w-16 text-sky-600' />,
+  }
+]
+
+export const devTools =[
+  {
+    id: nanoid(),
+    title: 'React',
+    icon : <FaReact className='h-16 w-16 text-sky-600' />,
+  },
+  {
+    id: nanoid(),
+    title: 'Redux',
+    icon : <BiLogoRedux className='h-16 w-16 text-sky-600' />,
+  },
+  {
+    id: nanoid(),
+    title: 'Angular',
+    icon : <FaAngular className='h-16 w-16 text-sky-600' />,
+  },
+  {
+    id: nanoid(),
+    title: 'Vue',
+    icon : <FaVuejs className='h-16 w-16 text-sky-600' />,
+  },
+  {
+    id: nanoid(),
+    title: 'GitHub',
+    icon : <FaGithub className='h-16 w-16 text-sky-600' />,
+  },
+  {
+    id: nanoid(),
+    title: 'BootStrap',
+    icon : <FaBootstrap className='h-16 w-16 text-sky-600' />,
+  },
+  {
+    id: nanoid(),
+    title: 'FontAwesome',
+    icon : <FaFontAwesome className='h-16 w-16 text-sky-600' />,
+  },
+  {
+    id: nanoid(),
+    title: 'TailWind',
+    icon: <BiLogoTailwindCss className='h-16 w-16 text-sky-600' />,
+  }
+]
