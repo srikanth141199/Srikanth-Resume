@@ -1,4 +1,3 @@
-import aboutImg from '../assets/about.svg'
 import React from 'react'
 import SkillTitle from './SkillTitle'
 import codeCoffee1 from '../assets/codeCoffee1.jpg'

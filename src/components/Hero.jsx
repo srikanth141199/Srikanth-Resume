@@ -1,5 +1,4 @@
-import heroImg from '../assets/hero.svg'
-import selfImg from '../assets/selfC.svg'
+import pp1 from '../assets/pp1.jpg'
 import { FaGithub, FaLinkedin, FaReact } from 'react-icons/fa';
 import {SiNetlify} from 'react-icons/si'
 import React from 'react'
@@ -25,13 +24,8 @@ const Hero = () => {
                 </div>
             </article>
             <article className='hidden md:block'>
-                {/* <img src={selfImg} className='relative h-45 w-45 lg:h-60 lg:w-60 rounded-full object-cover' /> */}
-                {/* <div class="w-45 h-45 relative lg:h-60 lg:w-60 rounded-full mx-auto mb-6">
-                    <img class="w-full h-full object-cover rounded-full block relative" src={selfImg} alt="Srikanth Img" />
-                    <div class="absolute w-full h-full bg-orange-500 rounded-full top-0.25 right-0.5"></div>
-                </div> */}
                 <div className='img-con'>
-                    <img className='img1'src={selfImg} alt="Srikanth Img" />
+                    <img className='img1'src={pp1} alt="Srikanth Img" />
                 </div>
             </article>
         </div>
