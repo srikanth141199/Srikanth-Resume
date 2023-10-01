@@ -12,10 +12,10 @@ const Hero = () => {
                 <h3 className='mt-4 text-3xl capitalize text-slate-700 tracking-wide'>Front-End Developer</h3>
                 <h3 className='mt-4 text-2xl capitalize text-slate-700 tracking-wide'>Turning Ideas Into Interactive Reality</h3>
                 <div className='flex gap-x-4 mt-4'>
-                    <a href="#">
+                    <a href="https://github.com/srikanth141199" target="_blank">
                         <FaGithub  className='h-8 w-8 text-slate-500 hover:text-black duration-300'/>
                     </a>
-                    <a href="#">
+                    <a href="https://www.linkedin.com/in/srikanth-kollepara/" target="_blank">
                         <FaLinkedin  className='h-8 w-8 text-slate-500 hover:text-black duration-300'/>
                     </a>
                     <a href="#" >

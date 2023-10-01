@@ -1,6 +1,11 @@
 import { nanoid } from 'nanoid';
 import { FaHtml5, FaJs, FaReact, FaCss3Alt, FaSass, FaAngular, FaVuejs, FaGithub, FaBootstrap, FaFontAwesome } from 'react-icons/fa';
 import { BiLogoTypescript, BiLogoGit, BiLogoTailwindCss, BiLogoRedux } from 'react-icons/bi';
+import Interactive1 from './src/assets/projectImg/Interactive2.jpg'
+import AuthImg from './src/assets/projectImg/auth.jpg'
+import UpdateImg from './src/assets/projectImg/Update.jpg'
+import AdaptImg from './src/assets/projectImg/Adapt7.jpg'
+import TeamImg from './src/assets/projectImg/Team3.jpg'
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -33,28 +38,42 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'first project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    img: Interactive1,
+    title: 'Interactive-Responsive Web Application with Angular',
+    text: 'Leveraged Angular (utilizing TypeScript, HTML, and CSS) to develop an interactive and responsive   web application, showcasing proficiency in modern web development technologies.',
   },
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'second project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    img: AuthImg,
+    title: 'Implemented MSAL Authentication (Microsoft ADID)',
+    text: 'Successfully integrated Microsoft Authentication Library (MSAL) for secure authentication, demonstrating expertise in authentication.',
   },
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'third project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    img: UpdateImg,
+    title: 'Upgraded Application to Angular v14',
+    text: 'Spearheaded the seamless transition and upgrade of the application from Angular 11 to Angular 14, enhancing developer-friendliness and agility within the project.',
   },
+  {
+    id: nanoid(),
+    img: AdaptImg,
+    title: 'Adapted to Global Employee Rule Changes',
+    text: 'Implemented multiple application changes in response to evolving global employee rules, showcasing flexibility and compliance with regulatory requirements.',
+  },
+  {
+    id: nanoid(),
+    img: TeamImg,
+    title: 'Collaborated with Cross-Functional Teams',
+    text: 'Collaborated effectively with more than 5 cross-functional teams to conceptualize, design, and execute a responsive website, fostering teamwork and project coordination. ',
+  }
+  // {
+  //   id: nanoid(),
+  //   img: 'https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800',
+  //   url: 'https://react-projects.netlify.app/',
+  //   github: 'https://github.com/john-smilga',
+  //   title: 'third project',
+  //   text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+  // },
 ];
 
 export const languages = [

@@ -1,14 +1,14 @@
 import React from 'react'
 import SkillTitle from './SkillTitle'
 import codeCoffee1 from '../assets/codeCoffee1.jpg'
+import Code from '../assets/Code1.jpg'
 
 const About = () => {
   return (
     <section className='bg-white ' id='about'>
-        <div className="py-20 align-elements grid md:grid-cols-2 gap-8">
+        <div className="py-20 align-elements grid md:grid-cols-2 gap-2">
           <div className="pl-20">
             <img src={codeCoffee1} className='w-96 h-80 object-fit' />
-
           </div>
             <article>
                 <SkillTitle text="Code and Coffee"/>
