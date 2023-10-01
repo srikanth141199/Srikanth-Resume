@@ -9,11 +9,11 @@ const Projects = () => {
     <section className='bg-white' id='projects'>
       <div className='py-16 align-elements'>
         <SkillTitle text = "Project Space"/>
-        <article className='mt-8 py-8 flex gap-8 bg-slate-100 rounded-lg shadow-md hover:shadow-xl duration-300'>
-          <img src={O2CImg} alt="O2C Img" className=' object-cover rounded-t-lg h-64' />
+        <article className='mt-8 py-8 grid gap-4 md:grid-cols-2 bg-slate-100 rounded-lg shadow-md hover:shadow-xl duration-300'>
+          <img src={O2CImg} alt="O2C Img" className='pl-2 object-fit rounded-t-lg h-64' />
           <div className="grid">
             <h2 className="text-xl tracking-wide font-medium uppercase">Order To Cash (O2C)</h2>
-            <p className="text-slate-700 mt-4 leading-loose">Led and actively participated in the end-to-end implementation of the Order to Cash (O2C) project at Wipro, a comprehensive enterprise solution aimed at optimizing and enhancing the entire sales and revenue cycle.Designed and developed a unified, user-friendly application that serves as a one-stop platform for managing the complete order lifecycle, from initial order booking to resource allocation, project details, and invoice generation.</p>
+            <p className="text-slate-700 mt-4 leading-loose pr-2">Led and actively participated in the end-to-end implementation of the Order to Cash (O2C) project at Wipro, a comprehensive enterprise solution aimed at optimizing and enhancing the entire sales and revenue cycle.Designed and developed a unified, user-friendly application that serves as a one-stop platform for managing the complete order lifecycle, from initial order booking to resource allocation, project details, and invoice generation.</p>
           </div>
         </article>
           <article className="py-8 grid lg:grid-cols-2 xl:grid-cols-3 gap-8">

@@ -18,8 +18,8 @@ const Navbar = () => {
                         )
                     })}
                 </div>
-                <div className="flex gap-8">
-                    <a href={`tel:9492622824`} className='flex gap-2'><FiPhoneCall className='mt-1'/>9492622824</a>
+                <div className="grid justify-end lg:grid-cols-2">
+                    <a href={`tel:9492622824`} className='flex gap-2 md:ml-16'><FiPhoneCall className='mt-1'/>9492622824</a>
                     <a target="_blank" href={`mailto:kolleparasrikanth@gmail.com`} className='flex gap-2'><HiOutlineMail className='mt-1'/>kolleparasrikanth@gmail.com</a>
                 </div>
             </div>
