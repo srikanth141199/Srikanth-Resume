@@ -1,4 +1,4 @@
-import pp1 from '../assets/pp1.jpg'
+import pp1 from '../assets/pp3.jpg'
 import { FaGithub, FaLinkedin, FaReact } from 'react-icons/fa';
 import {SiNetlify} from 'react-icons/si'
 import React from 'react'
