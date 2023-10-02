@@ -10,7 +10,7 @@ const Navbar = () => {
             <div className='align-elements py-4 flex flex-col justify-between sm:flex-row sm:gap-x-16 sm:items-center sm:py-8' >
                 <h2 className="text-5xl font-bold text-sky-800 capitalize">P<span className='text-sky-600 text-3xl'>ORTFOLIO</span>
                 </h2>
-                <div className="flex gap-3">
+                <div className="flex gap-4">
                     {links.map((link) => {
                         const { id, href, text } = link
                         return (

@@ -18,7 +18,7 @@ const Hero = () => {
                     <a href="https://www.linkedin.com/in/srikanth-kollepara/" target="_blank">
                         <FaLinkedin  className='h-8 w-8 text-slate-500 hover:text-black duration-300'/>
                     </a>
-                    <a href="#" >
+                    <a href="https://app.netlify.com/teams/srikanth141199/sites" target='_blank' >
                         <SiNetlify  className='h-8 w-8 text-slate-500 hover:text-black duration-300 '/>
                     </a>
                 </div>

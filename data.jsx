@@ -1,17 +1,20 @@
 import { nanoid } from 'nanoid';
 import { FaHtml5, FaJs, FaReact, FaCss3Alt, FaSass, FaAngular, FaVuejs, FaGithub, FaBootstrap, FaFontAwesome } from 'react-icons/fa';
 import { BiLogoTypescript, BiLogoGit, BiLogoTailwindCss, BiLogoRedux } from 'react-icons/bi';
-import Interactive1 from './src/assets/projectImg/Interactive2.jpg'
+import InteractiveImg from './src/assets/projectImg/Interactive2.jpg'
 import AuthImg from './src/assets/projectImg/auth.jpg'
 import UpdateImg from './src/assets/projectImg/Update.jpg'
 import AdaptImg from './src/assets/projectImg/Adapt7.jpg'
 import TeamImg from './src/assets/projectImg/Team3.jpg'
+import MigrationImg from './src/assets/projectImg/Migration1.jpg'
+
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
   { id: nanoid(), href: '#about', text: 'about' },
   { id: nanoid(), href: '#skills', text: 'skills' },
   { id: nanoid(), href: '#projects', text: 'projects' },
+  { id: nanoid(), href: '#award', text: 'award' },
 ];
 
 export const skills = [
@@ -38,7 +41,7 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
-    img: Interactive1,
+    img: InteractiveImg,
     title: 'Interactive-Responsive Web Application with Angular',
     text: 'Leveraged Angular (utilizing TypeScript, HTML, and CSS) to develop an interactive and responsive   web application, showcasing proficiency in modern web development technologies.',
   },
@@ -65,6 +68,12 @@ export const projects = [
     img: TeamImg,
     title: 'Collaborated with Cross-Functional Teams',
     text: 'Collaborated effectively with more than 5 cross-functional teams to conceptualize, design, and execute a responsive website, fostering teamwork and project coordination. ',
+  },
+  {
+    id: nanoid(),
+    img: MigrationImg,
+    title: 'IAAS to PAAS Migration',
+    text: 'Drove front-end (application end) migration from IaaS to PaaS, implementing essential security measures, including Content Security Policy (CSP) headers and custom headers to enhance performance and security.',
   }
   // {
   //   id: nanoid(),
