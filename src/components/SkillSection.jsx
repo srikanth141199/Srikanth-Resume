@@ -1,7 +1,6 @@
 import React from 'react'
 import { skills, languages, devTools } from '../../data'
 import SkillTitle from './SkillTitle'
-import SkillCard from './SkillCard'
 import { Tooltip } from 'react-tooltip'
 
 const SkillSection = () => {

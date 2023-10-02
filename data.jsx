@@ -1,9 +1,10 @@
 import { nanoid } from 'nanoid';
 import { FaHtml5, FaJs, FaReact, FaCss3Alt, FaSass, FaAngular, FaVuejs, FaGithub, FaBootstrap, FaFontAwesome } from 'react-icons/fa';
 import { BiLogoTypescript, BiLogoGit, BiLogoTailwindCss, BiLogoRedux } from 'react-icons/bi';
+import { SiAxios } from 'react-icons/si';
 import InteractiveImg from './src/assets/projectImg/Interactive2.jpg'
 import AuthImg from './src/assets/projectImg/auth.jpg'
-import UpdateImg from './src/assets/projectImg/Update.jpg'
+import UpdateImg from './src/assets/projectImg/Update2.jpg'
 import AdaptImg from './src/assets/projectImg/Adapt7.jpg'
 import TeamImg from './src/assets/projectImg/Team3.jpg'
 import MigrationImg from './src/assets/projectImg/Migration1.jpg'
@@ -136,8 +137,8 @@ export const devTools =[
   },
   {
     id: nanoid(),
-    title: 'Vue',
-    icon : <FaVuejs className='h-16 w-16 text-sky-600' />,
+    title: 'Axios',
+    icon : <SiAxios className='h-16 w-16 text-sky-600' />,
   },
   {
     id: nanoid(),
