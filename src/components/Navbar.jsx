@@ -9,7 +9,7 @@ import { FaGithub, FaLinkedin, FaReact } from 'react-icons/fa';
 const Navbar = () => {
     return (
         <nav className='bg-sky-100'>
-            <div className='align-elements py-4 flex flex-col justify-between sm:flex-row sm:gap-x-16 sm:items-center sm:py-8' >
+            <div className='align-elements py-4 flex flex-col justify-between md:flex-row md:gap-x-16 md:items-center md:py-8' >
                 <h2 className="text-5xl font-bold text-sky-800 capitalize">P<span className='text-sky-600 text-3xl'>ORTFOLIO</span>
                 </h2>
                 <div className="flex gap-4">
