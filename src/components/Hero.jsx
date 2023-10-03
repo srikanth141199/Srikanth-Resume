@@ -8,10 +8,10 @@ const Hero = () => {
     <section className='bg-sky-100 py-24'>
         <div className="align-elements grid md:grid-cols-2 items-center gap-16">
             <article>
-                <h1 className='text-7xl font-bold tracking-bolder'>I'm Srikanth</h1>
+                <h1 className='text-7xl font-bold tracking-bolder'>Hi! I'm Srikanth</h1>
                 <h3 className='mt-4 text-3xl capitalize text-slate-700 tracking-wide'>Front-End Developer</h3>
-                <h3 className='mt-4 text-2xl capitalize text-slate-700 tracking-wide'>Turning Ideas Into Interactive Reality</h3>
-                <div className='flex gap-x-4 mt-4'>
+                <h3 className='mt-4 text-2xl capitalize text-slate-700 tracking-wide'>Code with Creativity, Design with Precision!</h3>
+                {/* <div className='flex gap-x-4 mt-4'>
                     <a href="https://github.com/srikanth141199" target="_blank">
                         <FaGithub  className='h-8 w-8 text-slate-500 hover:text-black duration-300'/>
                     </a>
@@ -21,7 +21,7 @@ const Hero = () => {
                     <a href="https://app.netlify.com/teams/srikanth141199/sites" target='_blank' >
                         <SiNetlify  className='h-8 w-8 text-slate-500 hover:text-black duration-300 '/>
                     </a>
-                </div>
+                </div> */}
             </article>
             <article className='hidden md:block'>
                 <div className='img-con'>

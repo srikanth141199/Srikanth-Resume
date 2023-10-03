@@ -14,13 +14,16 @@ const SkillSection = () => {
             {languages.map((lang) => {
               const { id, icon, title } = lang
               return (
-                <a
-                  data-tooltip-id="my-tooltip"
-                  data-tooltip-content={title}
-                  data-tooltip-place="bottom"
-                  className='h-16 w-16'>
-                  {icon} <Tooltip id="my-tooltip" />
-                </a>
+                <div>
+                  <a
+                    data-tooltip-id="my-tooltip"
+                    data-tooltip-content={title}
+                    data-tooltip-place="bottom"
+                    className='h-16 w-16'>
+                    {icon} <Tooltip id="my-tooltip" />
+                  </a>
+                  <h2 className="text-xl">{title}</h2>
+                </div>
               )
             })}
           </div>
@@ -33,13 +36,16 @@ const SkillSection = () => {
             {devTools.map((tool) => {
               const { id, icon, title } = tool
               return (
-                <a
-                  data-tooltip-id="my-tooltip"
-                  data-tooltip-content={title}
-                  data-tooltip-place="bottom"
-                  className='h-16 w-16'>
-                  {icon} <Tooltip id="my-tooltip" />
-                </a>
+                <div>
+                  <a
+                    data-tooltip-id="my-tooltip"
+                    data-tooltip-content={title}
+                    data-tooltip-place="bottom"
+                    className='h-16 w-16'>
+                    {icon} <Tooltip id="my-tooltip" />
+                  </a>
+                  <h2 className="text-xl">{title}</h2>
+                  </div>
               )
             })}
           </div>
