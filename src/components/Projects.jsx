@@ -17,7 +17,7 @@ const Projects = () => {
             <p className="text-slate-700 mt-4 leading-loose text-justify">Led and actively participated in the end-to-end implementation of the Order to Cash (O2C) project at Wipro, a comprehensive enterprise solution aimed at optimizing and enhancing the entire sales and revenue cycle.Designed and developed a unified, user-friendly application that serves as a one-stop platform for managing the complete order lifecycle, from initial order booking to resource allocation, project details, and invoice generation.</p>
           </div>
         </article>
-          <article className="py-8 grid lg:grid-cols-2 xl:grid-cols-3 gap-8">
+          <article className="py-8 grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {projects.map((project)=>{
                   return<ProjectCard id = {project} {...project}/>
               })}
