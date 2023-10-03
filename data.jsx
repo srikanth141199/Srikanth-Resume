@@ -55,7 +55,7 @@ export const projects = [
   {
     id: nanoid(),
     img: UpdateImg,
-    title: 'Upgraded Application to Angular v14',
+    title: 'Upgraded Application from Angular v11 to v14',
     text: 'Spearheaded the seamless transition and upgrade of the application from Angular 11 to Angular 14, enhancing developer-friendliness and agility within the project.',
   },
   {
