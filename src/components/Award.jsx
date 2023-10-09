@@ -9,10 +9,10 @@ const Award = () => {
             
 
             <div className="grid md:grid-cols-2 gap-8 py-8 ">
-                <img src={AwardImg} alt="Avengers Award" className='w-120 h-80 object-fill rounded-2xl border-4 border-sky-200'/>
+                <img src={AwardImg} alt="Avengers Award" className='w-120 h-80 object-fill rounded-2xl border-4 border-sky-600'/>
                 <div >
                     <SkillTitle text="Award"/>
-                    <p className='py-8 text-xl text-justify'>Received the prestigious <span className='font-bold text-sky-800'> "Avengers Award"</span> from Wipro in recognition of my outstanding contributions to project development.</p>
+                    <p className='py-8 text-xl text-justify'>Received the prestigious <span className='font-bold text-sky-600'> "Avengers Award"</span> from Wipro in recognition of my outstanding contributions to project development.</p>
                 </div>
                 
             </div>

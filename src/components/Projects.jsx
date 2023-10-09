@@ -14,7 +14,7 @@ const Projects = () => {
           <div className="grid p-8">
             <h2 className="text-xl tracking-wide font-medium uppercase">Order To Cash (O2C)</h2>
             <p className="text-sm text-slate-400">Wipro-Technologies<span className='pl-6'>July 2021 - Present</span> </p>
-            <p className="text-slate-700 mt-4 leading-loose text-justify">Led and actively participated in the end-to-end implementation of the Order to Cash (O2C) project at Wipro, a comprehensive enterprise solution aimed at optimizing and enhancing the entire sales and revenue cycle.Designed and developed a unified, user-friendly application that serves as a one-stop platform for managing the complete order lifecycle, from initial order booking to resource allocation, project details, and invoice generation.</p>
+            <p className="text-slate-700 mt-4 leading-loose text-justify capitalize">Led and actively participated in the end-to-end implementation of the Order to Cash (O2C) project at Wipro, a comprehensive enterprise solution aimed at optimizing and enhancing the entire sales and revenue cycle. Designed and developed a unified, user-friendly application that serves as a one-stop platform for managing the complete order lifecycle, from initial order booking to resource allocation, project details, and invoice generation.</p>
           </div>
         </article>
           <article className="py-8 grid md:grid-cols-2 lg:grid-cols-3 gap-8">
