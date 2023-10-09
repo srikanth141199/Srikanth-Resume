@@ -20,7 +20,7 @@ const Navbar = () => {
                         )
                     })}
                 </div>
-                <div className=" flex flex-col items-center xl:flex-row xl:items-center xl:py-4 gap-x-4 ">
+                <div className=" flex flex-col items-left xl:flex-row xl:items-center xl:py-4 gap-x-4 ">
                     <a href={`tel:9492622824`} className='flex gap-2 md:ml-16 hover:text-lg duration-300'><FiPhoneCall className='mt-1'/>9492622824</a>
                     <a target="_blank" href={`mailto:kolleparasrikanth@gmail.com`} className='flex gap-2 hover:text-lg duration-300'><HiOutlineMail className='mt-1  duration-300'/>kolleparasrikanth@gmail.com</a>
                     <a href="https://github.com/srikanth141199"  target="_blank">
