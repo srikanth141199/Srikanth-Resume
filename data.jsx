@@ -1,6 +1,7 @@
 import { nanoid } from 'nanoid';
-import { FaHtml5, FaJs, FaReact, FaCss3Alt, FaSass, FaAngular, FaVuejs, FaGithub, FaBootstrap, FaFontAwesome } from 'react-icons/fa';
+import { FaJenkins, FaDocker, FaHtml5, FaJs, FaReact, FaCss3Alt, FaSass, FaAngular, FaVuejs, FaGithub, FaBootstrap, FaFontAwesome } from 'react-icons/fa';
 import { BiLogoTypescript, BiLogoGit, BiLogoTailwindCss, BiLogoRedux } from 'react-icons/bi';
+import {LiaDocker} from 'react-icons/lia'
 import { SiAxios } from 'react-icons/si';
 import InteractiveImg from './src/assets/projectImg/Interactive2.jpg'
 import AuthImg from './src/assets/projectImg/auth.jpg'
@@ -76,14 +77,6 @@ export const projects = [
     title: 'IAAS to PAAS Migration',
     text: 'Drove front-end (application end) migration from IaaS to PaaS, implementing essential security measures, including Content Security Policy (CSP) headers and custom headers to enhance performance and security.',
   }
-  // {
-  //   id: nanoid(),
-  //   img: 'https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800',
-  //   url: 'https://react-projects.netlify.app/',
-  //   github: 'https://github.com/john-smilga',
-  //   title: 'third project',
-  //   text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
-  // },
 ];
 
 export const languages = [
@@ -152,12 +145,12 @@ export const devTools =[
   },
   {
     id: nanoid(),
-    title: 'FontAwesome',
-    icon : <FaFontAwesome className='h-16 w-16 text-sky-600' />,
+    title: 'Jenkins',
+    icon : <FaJenkins className='h-16 w-16 text-sky-600' />,
   },
   {
     id: nanoid(),
-    title: 'TailWind',
-    icon: <BiLogoTailwindCss className='h-16 w-16 text-sky-600' />,
+    title: 'Docker',
+    icon: <LiaDocker className='h-16 w-16 text-sky-600' />,
   }
 ]

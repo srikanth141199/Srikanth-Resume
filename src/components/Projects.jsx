@@ -19,7 +19,7 @@ const Projects = () => {
         </article>
           <article className="py-8 grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {projects.map((project)=>{
-                  return<ProjectCard id = {project} {...project}/>
+                  return<ProjectCard key={project.id} id = {project} {...project}/>
               })}
           </article>
       </div>

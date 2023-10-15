@@ -1,10 +1,7 @@
 import React from 'react'
 import { links } from '../../data'
-import { FiPhoneCall } from 'react-icons/fi';
-import { HiOutlineMail } from 'react-icons/hi';
-import { FaGithub, FaLinkedin, FaReact } from 'react-icons/fa';
-
-
+import {TfiDownload} from 'react-icons/tfi'
+import Resume from '../assets/Resume/Srikanth_Resume.pdf'
 
 const Navbar = () => {
     return (
@@ -20,15 +17,61 @@ const Navbar = () => {
                         )
                     })}
                 </div>
-                <div className=" flex flex-col items-left xl:flex-row xl:items-center xl:py-4 gap-x-4 ">
-                    <a href={`tel:9492622824`} className='flex gap-2 md:ml-16 hover:text-lg duration-300'><FiPhoneCall className='mt-1'/>9492622824</a>
-                    <a target="_blank" href={`mailto:kolleparasrikanth@gmail.com`} className='flex gap-2 hover:text-lg duration-300'><HiOutlineMail className='mt-1  duration-300'/>kolleparasrikanth@gmail.com</a>
-                    <a href="https://github.com/srikanth141199"  target="_blank">
-                        <FaGithub  className='h-8 w-8 hover:h-12 hover:w-12  duration-300'/>
-                    </a>
-                    <a href="https://www.linkedin.com/in/srikanth-kollepara/"  target="_blank">
-                        <FaLinkedin  className='h-8 w-8 hover:h-12 hover:w-12  duration-300'/>
-                    </a>
+                <div className='flex'>
+                    <button className="button-33 " role="button"><a href={Resume} className='flex gap-2' download='Srikanth_Resume.pdf'>Download CV<TfiDownload className='mt-1'/></a></button>
+
+                    {/* <div className="menu">
+                        <div className="toggle">
+                            <ion-icon name="share-social"></ion-icon>
+                        </div>
+                        <li style="-i:0;--clr:#1877f2">
+                            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                        </li>
+                    </div> */}
+
+                    {/* <div className="menu">
+                        <div className="toggle">
+                            <ion-icon name="share-social"></ion-icon>
+                        </div>
+                        <ul>
+                            <li style={{ "--i": 0, "--clr": "#1877f2" }}>
+                            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                            </li>
+                        </ul>
+                    </div> */}
+
+                    {/* <div className="menu">
+                    <div className="toggle">
+                        <ion-icon name="share-social"></ion-icon>
+                    </div>
+                    <ul>
+                        <li style={{ "--i": 0, "--clr": "#1877f2" }}>
+                        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                        </li>
+                        <li style={{ "--i": 1, "--clr": "#25d366" }}>
+                        <a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a>
+                        </li>
+                        <li style={{ "--i": 2, "--clr": "#1da1f2" }}>
+                        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                        </li>
+                        <li style={{ "--i": 3, "--clr": "#FF5733" }}>
+                        <a href="#"><ion-icon name="logo-reddit"></ion-icon></a>
+                        </li>
+                        <li style={{ "--i": 4, "--clr": "#0a66c2" }}>
+                        <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+                        </li>
+                        <li style={{ "--i": 5, "--clr": "#c32aa3" }}>
+                        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                        </li>
+                        <li style={{ "--i": 6, "--clr": "#1b1e21" }}>
+                        <a href="#"><ion-icon name="logo-github"></ion-icon></a>
+                        </li>
+                        <li style={{ "--i": 7, "--clr": "#ff0000" }}>
+                        <a href="#"><ion-icon name="logo-youtube"></ion-icon></a>
+                        </li>
+                    </ul>
+                    </div> */}
+
                 </div>
             </div>
         </nav>

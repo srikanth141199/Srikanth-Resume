@@ -14,7 +14,7 @@ const SkillSection = () => {
             {languages.map((lang) => {
               const { id, icon, title } = lang
               return (
-                <div className='grid place-items-center'>
+                <div key={id} className='grid place-items-center'>
                   <a
                     className='h-16 w-16'>
                     {icon}
@@ -33,13 +33,13 @@ const SkillSection = () => {
             {devTools.map((tool) => {
               const { id, icon, title } = tool
               return (
-                <div className='grid place-items-center'>
+                <div key={id} className='grid place-items-center'>
                   <a
                     className='h-16 w-16'>
                     {icon}
                   </a>
                   <h2 className="text-xl">{title}</h2>
-                  </div>
+                </div>
               )
             })}
           </div>

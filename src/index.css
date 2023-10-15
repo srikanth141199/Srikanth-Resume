@@ -39,3 +39,63 @@ body{
     right: -0.75rem;
     border-radius: 50%;
   }
+
+
+  /* background-color: #c2f5fb; */
+/* CSS */
+.button-33 {
+  background-color: #c4eeff;
+  border-radius: 100px;
+  /* box-shadow: rgba(44, 158, 187, 0.2) 0 -25px 18px -14px inset,rgba(44, 158, 187, 0.2) 0 1px 2px,rgba(44, 158, 187, 0.2) 0 2px 4px,rgba(44, 158, 187, 0.2) 0 4px 8px,rgba(44, 158, 187, 0.2) 0 8px 16px,rgba(44, 158, 187, 0.2) 0 16px 32px; */
+  color: #0284c7;
+  cursor: pointer;
+  display: flex;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  border: #0284c7;
+  border-width: 10px;
+}
+
+.button-33:hover {
+  box-shadow: rgba(44, 158, 187, 0.2) 0 -25px 18px -14px inset,rgba(44, 158, 187, 0.2) 0 1px 2px,rgba(44, 158, 187, 0.2) 0 2px 4px,rgba(44, 158, 187, 0.2) 0 4px 8px,rgba(44, 158, 187, 0.2) 0 8px 16px,rgba(44, 158, 187, 0.2) 0 16px 32px;
+  transform: scale(1.05);
+  transition-duration: 1000;
+}
+
+
+/*Share Css*/
+
+.menu{
+position:relative;
+width:20px;
+display: flex;
+height:10px; 
+align-items: center;
+justify-content:center; }
+
+.menu .toggle{
+position:relative; align-items: center; font-size:21em; transition:1.25s;
+height:60px;
+width:60px;
+background:#fff;
+border-radius:50%;
+display: flex;
+justify-content:center;
+color:#333;
+cursor: pointer;
+z-index:5;
+
+}
+
+.menu.active, toggle { 
+  transform: rotate (360deg); 
+  box-shadow: 0 0 0 2px #333
+}
